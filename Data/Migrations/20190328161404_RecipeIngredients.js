@@ -16,6 +16,9 @@ exports.up = function(knex) {
       .inTable("ingredients")
       .onDelete("CASCADE")
       .onUpdate("CASCADE");
+    //amount of ingredient required in this specific recipe
+    tbl.integer("amount").notNullable();
+    tbl.string("unit_of_measure", 128).notNullable();
   });
 };
 
