@@ -1,4 +1,14 @@
 {
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/erin-koen/webdb-iv-challenge.git",
+  "author": "erin-koen <erin.koen@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "helmet": "^3.16.0",
@@ -8,14 +18,5 @@
   "devDependencies": {
     "knex-cleaner": "^1.1.4",
     "nodemon": "^1.18.10"
-  },
-  "name": "webdb-iv-challenge",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scipts": {
-    "server": "nodemon"
-  },
-  "repository": "https://github.com/erin-koen/webdb-iv-challenge.git",
-  "author": "erin-koen <erin.koen@gmail.com>",
-  "license": "MIT"
+  }
 }
